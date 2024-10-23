@@ -3,7 +3,7 @@
 
 using namespace std;
 
-map<int, int> fib_cache;
+map<int, long double> fib_cache;
 int fib(int n) {
     // memoize
     if (fib_cache.find(n) != fib_cache.end()) {

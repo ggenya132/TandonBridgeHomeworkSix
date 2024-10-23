@@ -16,7 +16,7 @@ int main() {
             smallIntegers.push_back(currentGreatestDivisor);
             if (divisorInput / currentGreatestDivisor !=
                 currentGreatestDivisor) {
-                         largeIntegers.push_back(divisorInput / currentGreatestDivisor);
+                largeIntegers.push_back(divisorInput / currentGreatestDivisor);
             }
         }
         currentGreatestDivisor++;
